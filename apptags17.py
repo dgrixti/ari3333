@@ -14,7 +14,7 @@ CORS(app)
 ollama_client = ollama.Client()
 
 # OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 
 @app.route('/generate_image', methods=['POST'])
